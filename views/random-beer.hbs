@@ -1,0 +1,6 @@
+<h1>My Random Beer</h1>
+    {{#each random}}
+    {{> beerpartial this}}
+    <p>{{this.food_pairing}}</p>
+    <p>{{this.brewers_tips}}</p>   
+    {{/each}}
